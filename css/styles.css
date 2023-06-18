@@ -10829,4 +10829,5 @@ textarea.form-control-lg {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+  border: 1px solid #51585e;
 }
