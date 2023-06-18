@@ -10827,7 +10827,13 @@ textarea.form-control-lg {
 .bg-image-full {
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center;
+  background-position:center;
   background-size: cover;
   border: 1px solid #51585e;
+}
+@media only screen and (min-width:1px) and (max-width: 700px){ 
+  .bg-image-full{
+    background-position: center;
+    background-size:cover auto;
+  }
 }
